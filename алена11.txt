@@ -1,0 +1,20 @@
+age = +prompt("Введите возраст");
+if (0 < age <= 1) {
+alert("младенец");
+}
+else if (1 < age <= 11) {
+alert("ребёнок");
+}
+else if (12 <= age <= 15) {
+alert("подросток");
+}
+else if (16 <= age <= 25) {
+alert("юноша");
+}
+else if (26 <= age <= 70) {
+alert("мужчина");
+}
+else if (70 < age) {
+alert("старик");
+}
+age; 
